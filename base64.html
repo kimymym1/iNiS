@@ -23,16 +23,16 @@
       };
 
       function clipboardUrl() {
-        WevNative.copyToClipboard("{\"type\":\"url\",\"content\":\"http://m.naver.com\"}")
+        WevNative.copyToClipboard("{\"type\":\"url\",\"url\":\"http://m.naver.com\"}")
       };
       function clipboardText() {
-        WevNative.copyToClipboard("{\"type\":\"text\",\"content\":\"Hello,world\"}")
+        WevNative.copyToClipboard("{\"type\":\"text\",\"text\":\"Hello,world\"}")
       };
       function clipboardDataUri() {
-        WevNative.copyToClipboard("{\"type\":\"imageDataUri\",\"content\":\"" + rawImage + "\"}")
+        WevNative.copyToClipboard("{\"type\":\"imageDataUri\",\"imageDataUri\":\"" + rawImage + "\"}")
       };
       function clipboardImageUrl() {
-        WevNative.copyToClipboard("{\"type\":\"imageUrl\",\"content\":\"https://kimymym1.github.io/iNiS/ym_image.png\"}")
+        WevNative.copyToClipboard("{\"type\":\"imageUrl\",\"imageUrl\":\"https://kimymym1.github.io/iNiS/ym_image.png\"}")
       };
 	  
 	  window.onload = function() {
